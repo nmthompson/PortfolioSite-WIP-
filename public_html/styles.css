@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 26, 2015, 8:30:38 PM
+    Author     : nicholasthompson
+*/
+.wrapper{
+    margin:0;
+    position:relative;
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+.header{
+    width:100%;
+    height: 62px;
+    position:fixed;
+    background:white;
+    font-family: "Black",Roboto,"Roboto",Helvetica,Arial,sans-serif;
+    border-bottom: 4px solid #6ab344;
+    box-shadow: 2px 2px 9px rgba(2, 1, 1, 0.84);
+    padding:0;
+    margin:0;
+}
+.name {
+    width: 300px;
+    height: 61px;
+    float:left;
+}
+.topName{
+    float:left;
+}
+.bottomName{
+    float:left;
+    height: 24px;
+    width: 251px;
+}
+.topName h1{
+    font-size: 18px;
+    padding-left:13px;
+    margin-bottom:3px;  
+}
+.bottomName img{
+    float:left;
+    height: 20px;
+    width: 118px;
+    padding-left:13px;
+    margin-right:-7px;
+}
+.bottomName h2{
+    float:left;
+    font-size: 22px;
+    margin-top: 2px;
+}
+.navigation{
+    float:right;
+    height:50px;
+    margin-right:15px;
+    margin-top: 32px;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+}
+.navigation li{
+    list-style-type: none;
+    display: inline;   
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    
+}
+.navigation a:hover{
+    color:#6ab344;
+    font-weight: bold;
+    border-bottom:4px solid #6ab344;
+    padding-bottom:12px;
+}
+.navigation a:target{
+    color:#6ab344;
+    font-weight: bold;
+    border-bottom:4px solid #6ab344;
+    padding-bottom:10px;
+}
+.navigation li:before{
+    font-weight:bold;
+    content: " / ";
+}
+.navigation li:first-child:before{
+    font-weight:bold;
+    content: " < ";
+}
+.navigation li:last-child:after{
+    content: " > ";
+}
+a[ id= "about" ]:target ~ div.about{
+    -webkit-transform: translateY( 0px );
+    transform: translateY( 0px );
+}
+.about {
+    display:block;
+    width:100%;
+    height:100vh;
+    background:#4775FF;
+    border-bottom: 4px solid #6ab344;
+    box-shadow: 2px 2px 9px rgba(2, 1, 1, 0.84);
+}
+
+.exp{
+    display:block;
+    width:100%;
+    height:100vh;
+    background:white;
+    border-bottom: 4px solid #6ab344;
+    box-shadow: 2px 2px 9px rgba(2, 1, 1, 0.84);
+}
+.skills{
+    display:block;
+    width:100%;
+    height:100vh;
+    background:#4775FF;
+    border-bottom: 4px solid #6ab344;
+    box-shadow: 2px 2px 9px rgba(2, 1, 1, 0.84);
+}
+.port{
+    display:block;
+    width:100%;
+    height:100vh;
+    background:white;
+    border-bottom: 4px solid #6ab344;
+    box-shadow: 2px 2px 9px rgba(2, 1, 1, 0.84);
+}
+.contact{
+    display:block;
+    width:100%;
+    height:25vh;
+    background:#4775FF;
+}
